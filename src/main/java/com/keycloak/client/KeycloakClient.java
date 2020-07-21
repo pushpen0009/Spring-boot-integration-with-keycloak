@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import feign.Headers;
 
-@FeignClient(name="KeycloakApi", url="http://localhost:8080/auth/realms/keycloakrealmnew/protocol/openid-connect" )
+@FeignClient(name="KeycloakApi", url="http://localhost:8080/auth/realms/mytoshika1/protocol/openid-connect" )
 public interface KeycloakClient {
 	
 	@PostMapping(value="/token")
