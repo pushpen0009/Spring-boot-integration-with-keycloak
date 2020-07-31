@@ -18,7 +18,6 @@ public class AuthServiceController {
 	@Autowired
 	private KeycloakClient keycloakClient;
 		
-	
 	@Loggable
 	@PostMapping(
 			  value = "/generateToken", consumes = "application/x-www-form-urlencoded", produces = "application/json")
